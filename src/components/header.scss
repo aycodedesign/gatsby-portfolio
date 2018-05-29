@@ -1,7 +1,19 @@
-nav {
-  color: white;
-  
-  a {
-  text-decoration: none;
+div.header {
+    background-color:#0098ca;
+    margin-bottom: 1.45rem;
+    text-align: left;
+
+  h1 {
+    color: white;
+    text-decoration: none;
+    max-width: 960px;
+    padding: 1rem;
   }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+    // background-color: rgba(0, 0, 0, 0.8);
+
 }
