@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'ayDigitalDesign',
+    title: '<ayDigitalDesign>',
   },
   plugins: [
     'gatsby-image',
@@ -10,6 +10,6 @@ module.exports = {
     'gatsby-plugin-styled-components',
     // 'gatsby-source-filesystem',
     'gatsby-transformer-sharp',
-    // 'styled-components'
+    'styled-components',
   ],
 }
