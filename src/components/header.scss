@@ -1,21 +1,30 @@
 div.header {
     background-color:#131414;
-    margin-bottom: 1.45rem;
-    text-align: left;
+    margin-bottom: 3rem;
+    display: flex;
+    padding-bottom: 0px;
+   
     
 
   h1 {
     color: white;
     text-decoration: none;
     max-width: 960px;
-    padding: 1rem;
+    padding-top: .5rem;
+    padding-left: .5rem;
     font-size: 1.5rem;
   }
-}
+
 
 a {
   text-decoration: none;
   color: white;
     // background-color: rgba(0, 0, 0, 0.8);
-
 }
+
+// .rightside {
+//   position: fixed;
+//   text-align: right;
+// }
+}
+

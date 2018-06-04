@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 const GraphicPage = () => (
   <div>
     <h1>graphic</h1>
-    <p>check out my websites and applications</p>
+    <p>check out my graphic design</p>
   </div>
 )
 

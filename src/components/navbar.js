@@ -3,17 +3,11 @@ import Link from 'gatsby-link'
 import styled from "styled-components";
 
 
-const NavContainer = styled.div`
+const NavContainer = styled.nav`
   margin: 10px;
   padding: 0px;
-  text-align: right;
  
-  
-  ul {
-      list-style-type: none;
-       display: inline-block;
 
-  }
   .webApp {
     a:hover {
       color: red;
@@ -31,6 +25,35 @@ const NavContainer = styled.div`
       color: green;
     }
   }
+
+ ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+}
+
+ li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1rem;
+  width: auto;
+  ${'' /* line-height: 40px; */}
+  ${'' /* height: 40px; */}
+  
+  }
+ 
+ a {
+  text-decoration: none;
+  color: #fff;
+  transition: .3s color;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+ 
+
+ ${'' /* a:hover {
+  background-color: #005f5f;
+} */}
 `
 
 
@@ -38,11 +61,13 @@ const Navbar = () => {
   return (
       <div>
         <NavContainer>
-        <ul>
-          <li className='webApp'><Link to="/web-app/">web-app</Link></li>
-          <li className='graphic'><Link to="/graphic/">graphic</Link></li>
-          <li className='communicate'><Link to="/communicate/">communicate</Link></li>
-        </ul>
+          <nav>
+            <ul>
+              <li className='webApp'><Link to="/web-app/">web-app</Link></li>
+              <li className='graphic'><Link to="/graphic/">graphic</Link></li>
+              <li className='communicate'><Link to="/communicate/">communicate</Link></li>
+            </ul>
+          </nav>
         </NavContainer>
     </div>
   )

@@ -1,3 +1,6 @@
+@import url('https://fonts.google.com/specimen/Wire+One');
+@import url('https://fonts.google.com/specimen/Open+Sans');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -232,7 +235,7 @@ h1 {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 2.25rem;
+  font-size: 2.5rem;
   line-height: 1.1;
 }
 h2 {
@@ -621,4 +624,14 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+/* my additions */
+
+h1 {
+  font-family: 'Wire One', sans-serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }

@@ -11,5 +11,6 @@ module.exports = {
     // 'gatsby-source-filesystem',
     'gatsby-transformer-sharp',
     'styled-components',
+    'react-fontawesome'
   ],
 }

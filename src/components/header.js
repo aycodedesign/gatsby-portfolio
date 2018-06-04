@@ -1,10 +1,11 @@
 import React from "react";
 import Link from "gatsby-link";
 import styled from 'styled-components';
+import Icons from './icons.js';
 
-import Navbar from './navbar'
+import Navbar from './navbar';
 
-import './header.scss'
+import './header.scss';
 
 
 const Header = ({ siteTitle }) => (
@@ -13,7 +14,11 @@ const Header = ({ siteTitle }) => (
       <h1>
         <Link to="/">{siteTitle}</Link>
       </h1>
-      <Navbar />
+
+      <div>
+        <Navbar />
+        <Icons />        
+      </div>
   </div>  
 )
 
