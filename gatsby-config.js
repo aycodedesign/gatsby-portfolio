@@ -10,7 +10,14 @@ module.exports = {
     'gatsby-plugin-styled-components',
     // 'gatsby-source-filesystem',
     'gatsby-transformer-sharp',
-    'styled-components',
-    'react-fontawesome'
-  ],
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Wire One`,
+          `Open Sans` // you can also specify font weights and styles
+        ]
+      }
+    }
+  ]
 }

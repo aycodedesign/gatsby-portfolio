@@ -1,5 +1,4 @@
-@import url('https://fonts.google.com/specimen/Wire+One');
-@import url('https://fonts.google.com/specimen/Open+Sans');
+@import url('https://use.fontawesome.com/releases/v5.0.13/css/all.css');
 
 html {
   font-family: sans-serif;
@@ -630,7 +629,11 @@ pre tt:after {
 
 h1 {
   font-family: 'Wire One', sans-serif;
+  a {
+    padding-left: 30px;
+  }
 }
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;

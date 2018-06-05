@@ -7,23 +7,19 @@ import Navbar from './navbar';
 
 import './header.scss';
 
-
 const Header = ({ siteTitle }) => (
   <div className='header'>
-      
-      <h1>
-        <Link to="/">{siteTitle}</Link>
-      </h1>
 
-      <div>
-        <Navbar />
-        <Icons />        
-      </div>
-  </div>  
+    <h1>
+      <Link to="/">{siteTitle}</Link>
+    </h1>
+
+    <div>
+      <Navbar />
+
+    </div>
+  </div>
 )
-
-
-
 
 
 export default Header

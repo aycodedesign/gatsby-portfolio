@@ -7,7 +7,6 @@ const NavContainer = styled.nav`
   margin: 10px;
   padding: 0px;
  
-
   .webApp {
     a:hover {
       color: red;
@@ -47,28 +46,22 @@ const NavContainer = styled.nav`
   transition: .3s color;
   padding-left: 1rem;
   padding-right: 1rem;
-  
 }
  
-
- ${'' /* a:hover {
-  background-color: #005f5f;
-} */}
 `
-
 
 const Navbar = () => {
   return (
-      <div>
-        <NavContainer>
-          <nav>
-            <ul>
-              <li className='webApp'><Link to="/web-app/">web-app</Link></li>
-              <li className='graphic'><Link to="/graphic/">graphic</Link></li>
-              <li className='communicate'><Link to="/communicate/">communicate</Link></li>
-            </ul>
-          </nav>
-        </NavContainer>
+    <div>
+      <NavContainer>
+        <nav>
+          <ul>
+            <li className='webApp'><Link to="/web-app/">web-app</Link></li>
+            <li className='graphic'><Link to="/graphic/">graphic</Link></li>
+            <li className='communicate'><Link to="/communicate/">communicate</Link></li>
+          </ul>
+        </nav>
+      </NavContainer>
     </div>
   )
 }

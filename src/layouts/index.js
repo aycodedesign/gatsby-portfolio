@@ -3,8 +3,9 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import Header from '../components/header'
+import Footer from '../components/footer'
 
-import './index.css'
+import './index.scss'
 
 
 const Layout = ({ children, data }) => (
@@ -16,6 +17,7 @@ const Layout = ({ children, data }) => (
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
+    {/* <link = favicon </Helmet> */}
     <Header siteTitle={data.site.siteMetadata.title} />
     <div
       style={{
@@ -27,6 +29,7 @@ const Layout = ({ children, data }) => (
     >
       {children()}
     </div>
+    <Footer />
   </div>
 )
 
