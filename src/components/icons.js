@@ -9,11 +9,17 @@ i {
   color: white;
   font-size: 2rem;
   padding: 25px;
+  &:hover {
+    color: blue;
+    transition: .5s color;
+  }
 }
 
 p {
   font-size: 2rem;
 }
+
+
 `
 
 const Icons = () => {
