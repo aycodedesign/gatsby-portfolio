@@ -7,27 +7,19 @@ import Icons from './icons.js';
 const FooterContainer = styled.div`
  
 div {
-  background-color: black;
-  margin-bottom: 3rem;
+  background-color: #302e2e;
   display: flex;
-  padding-bottom: 0px;
   height: auto;
-  color: red;
+  margin: 0 auto;
+  max-width: 960;
 }
 `
 
 const Footer = () => (
   <div>
     <FooterContainer>
-
       <Icons />
-
     </FooterContainer>
-
-
-
-
-
   </div>
 )
 

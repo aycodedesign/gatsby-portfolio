@@ -1,54 +1,47 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
+import Link from 'gatsby-link';
 import styled from "styled-components";
 
 
 const NavContainer = styled.nav`
-  margin: 10px;
-  padding: 0px;
- 
   .webApp {
     a:hover {
       color: red;
+      transition: .5s color;
     }
   }
   
   .graphic {
     a:hover {
       color: blue;
+      transition: .5s color;
     }
   }
 
   .communicate {
-    a: hover {
+    a:hover {
       color: green;
+      transition: .5s color;
     }
   }
 
  ul {
   list-style: none;
-  margin: 0;
+  margin: 5px;
   display: flex;
-}
-
- li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1rem;
-  width: auto;
-  ${'' /* line-height: 40px; */}
-  ${'' /* height: 40px; */}
-  
+   li {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: .5rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    a {
+      font-size: 1rem;
+      text-decoration: none;
+      color: #ffffff;
+    }
   }
- 
- a {
-  text-decoration: none;
-  color: #fff;
-  transition: .3s color;
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
- 
-`
+`;
 
 const Navbar = () => {
   return (
@@ -56,7 +49,7 @@ const Navbar = () => {
       <NavContainer>
         <nav>
           <ul>
-            <li className='webApp'><Link to="/web-app/">web-app</Link></li>
+            <li className='webApp'><Link to="/web-app/">web&app</Link></li>
             <li className='graphic'><Link to="/graphic/">graphic</Link></li>
             <li className='communicate'><Link to="/communicate/">communicate</Link></li>
           </ul>

@@ -9,17 +9,39 @@ i {
   color: white;
   font-size: 2rem;
   padding: 25px;
-  &:hover {
-    color: blue;
-    transition: .5s color;
-  }
 }
+  .fa-linkedin { 
+    &:hover {
+      color: #0097D3;
+      transform: rotate(-10deg);
+      transition: .5s;
+    }
+  }
+  .fa-instagram { 
+    &:hover {
+      color: #7E3AB1;
+      transform: rotate(-10deg);
+      transition: .5s;
+    }
+  }
+  .fa-github { 
+    &:hover {
+      color: #000000;
+      transform: rotate(-10deg);
+      transition: .5s;
+    }
+  }
+  .fa-google-plus { 
+    &:hover {
+      color: #da4b42;
+      transform: rotate(-10deg);
+      transition: .5s;
+    }
+  }
 
 p {
-  font-size: 2rem;
+  font-size: 1rem;
 }
-
-
 `
 
 const Icons = () => {
