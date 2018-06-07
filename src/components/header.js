@@ -12,6 +12,9 @@ const HeaderContainer = styled.div`
   display: flex;
   position: fixed;
   width: 100%;
+  background-color: #302e2e;
+  text-align: center;
+  box-shadow: 0px 1px 5px black;
 
 div {
   position: absolute;
@@ -23,7 +26,10 @@ div {
   a {
     color: #ffffff;
     text-decoration: none;
-    
+  }
+  &:hover {
+  transform: scale(1.1);
+  transition: .1s ease-in;
   }
 }
 `
