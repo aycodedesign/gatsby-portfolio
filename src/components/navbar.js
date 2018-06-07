@@ -45,17 +45,15 @@ const NavContainer = styled.nav`
 
 const Navbar = () => {
   return (
-    <div>
-      <NavContainer>
-        <nav>
-          <ul>
-            <li className='webApp'><Link to="/web-app/">web&app</Link></li>
-            <li className='graphic'><Link to="/graphic/">graphic</Link></li>
-            <li className='communicate'><Link to="/communicate/">communicate</Link></li>
-          </ul>
-        </nav>
-      </NavContainer>
-    </div>
+    <NavContainer>
+      <nav>
+        <ul>
+          <li className='webApp'><Link to="/web-app/">web&app</Link></li>
+          <li className='graphic'><Link to="/graphic/">graphic</Link></li>
+          <li className='communicate'><Link to="/communicate/">communicate</Link></li>
+        </ul>
+      </nav>
+    </NavContainer>
   )
 }
 

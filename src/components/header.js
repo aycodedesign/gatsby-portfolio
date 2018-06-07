@@ -10,32 +10,39 @@ const HeaderContainer = styled.div`
   background-color:rgb(48, 46, 46);
   margin-bottom: 3rem;
   display: flex;
+  position: fixed;
+  width: 100%;
 
 div {
   position: absolute;
   right: 10px;
 }
 h1 {
-    padding-top: .5rem;
-    padding-left: .5rem;
-    font-size: 1.5rem;
-    a {
-      color: #ffffff;
-      text-decoration: none;
-    }
+    
+    
   }
+.home {
+  padding-top: 10px;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    
+  }
+}
 `
 
-const Header = ({siteTitle}) => (
-  <HeaderContainer>
-    <h1>
-      <Link to="/">{siteTitle}</Link>
-    </h1>
-    <div>
-      <Navbar />
-    </div>
-  </HeaderContainer>
-)
+const Header = ({siteTitle}) => {
+  return (
+    <HeaderContainer>
+      <h2 className="home">
+        <Link to="/">{siteTitle}</Link>
+      </h2>
+      <div>
+        <Navbar />
+      </div>
+    </HeaderContainer>
+  )
+}
 
 
 export default Header

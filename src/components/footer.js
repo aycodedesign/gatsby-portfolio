@@ -5,23 +5,22 @@ import Icons from './icons.js';
 
 
 const FooterContainer = styled.div`
- 
-div {
   background-color: #302e2e;
-  display: flex;
-  height: auto;
-  margin: 0 auto;
-  max-width: 960;
-}
+  text-align: center;
 `
 
-const Footer = () => (
-  <div>
+const Footer = () => {
+  return (
+    
     <FooterContainer>
+
       <Icons />
+            
+
     </FooterContainer>
-  </div>
-)
+   
+  )
+}
 
 
 

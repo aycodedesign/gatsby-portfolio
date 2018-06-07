@@ -5,6 +5,12 @@ import styled from "styled-components";
 
 const IconContainer = styled.div`
 
+  h2 {
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+  }
 i {
   color: white;
   font-size: 2rem;
@@ -39,19 +45,21 @@ i {
     }
   }
 
-p {
-  font-size: 1rem;
-}
+
 `
 
 const Icons = () => {
   return (
     <div>
+
       <IconContainer>
-        <a href="http://linkedin.com"><i className="fab fa-linkedin" /></a>
-        <a href="http://instagram.com"><i className="fab fa-instagram" /></a>
-        <a href="http://github.com/el3ctricsol"><i className="fab fa-github" /></a>
-        <a href="mailto:aubrey.ky.young@gmail.com"><i className="fab fa-google-plus" /></a>
+              
+                  <h2>communicate with me here :</h2>
+
+        <a href="https://www.linkedin.com/in/aubreykyyoung/" target="blank"><i className="fab fa-linkedin" /></a>
+        <a href="http://instagram.com/el3ctricsol" target="blank"><i className="fab fa-instagram" /></a>
+        <a href="https://github.com/el3ctricsol" target="_blank"><i className="fab fa-github" /></a>
+        <a href="mailto:aubrey.ky.young@gmail.com?subject=I dig what you do!"><i className="fab fa-google-plus" /></a>
       </IconContainer>
     </div>
   )
