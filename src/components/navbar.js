@@ -6,22 +6,22 @@ import styled from "styled-components";
 const NavContainer = styled.nav`
   .webApp {
     a:hover {
-      color: red;
-      transition: .5s color;
+      color: #0093ca;
+      transition: .3s color;
     }
   }
   
   .graphic {
     a:hover {
-      color: blue;
-      transition: .5s color;
+      color: #0093ca;
+      transition: .3s color;
     }
   }
 
   .communicate {
     a:hover {
-      color: green;
-      transition: .5s color;
+      color: #0093ca;
+      transition: .3s color;
     }
   }
 

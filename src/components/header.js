@@ -17,10 +17,7 @@ div {
   position: absolute;
   right: 10px;
 }
-h1 {
-    
-    
-  }
+
 .home {
   padding-top: 10px;
   a {

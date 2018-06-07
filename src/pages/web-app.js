@@ -17,7 +17,8 @@ const WebAppContainer = styled.div`
     filter: grayscale(100%);
     &:hover {
       filter: none;
-      transition: .5s;
+      transform: scale(1.1);
+      transition: .3s;
     }
   }
   
