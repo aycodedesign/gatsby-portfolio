@@ -4,6 +4,8 @@ import styled from "styled-components";
 
 
 const NavContainer = styled.nav`
+margin-bottom: 50px;
+
   .webApp {
     a:hover {
       color: #0093ca;

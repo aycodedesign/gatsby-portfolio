@@ -21,18 +21,15 @@ const WebAppContainer = styled.div`
       transition: .3s;
     }
   }
-  
 `;
 
 const WebAppPage = () => {
   return (
     <div>
     <h1>web & app</h1>
-        <p>check out my websites and applications</p>
-      
+      <p>check out my websites and applications</p>
       
       <WebAppContainer>
-        
         <a href="http://aubreyyoung.aisites.com" target="_blank">
           <img src={jsExercise} alt="JavaScript website" />
         </a>
@@ -41,7 +38,6 @@ const WebAppPage = () => {
         </a>
       </WebAppContainer>
      </div> 
-    
   )
 }
 
