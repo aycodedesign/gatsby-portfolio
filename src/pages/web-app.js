@@ -15,15 +15,16 @@ const WebAppContainer = styled.div`
       height: 300px;
       width: 100%;
       .description1 {
+        width: 700px;
         position: absolute;
-        top: 100px;
-        right: 40%;
+        top: 70px;
+        right: 20%;
         padding-top: 25px;
       }
       &:hover {
         background-color: #46b29d;
         color: white;
-        transition: 0.3s;
+        transition: .3s ease-in;
       }
       a {
         position: absolute;
@@ -39,6 +40,7 @@ const WebAppContainer = styled.div`
     height: 300px;
     width: 100%;
     .description2 {
+      width: 600px;
       position: absolute;
       top: 400px;
       left: 20%;
@@ -47,7 +49,7 @@ const WebAppContainer = styled.div`
     &:hover {
       background-color: #49D692;
       color: white;
-      transition: 0.3s;
+      transition: 0.3s ease-in;
     }
     a {
       position: absolute;
@@ -63,15 +65,16 @@ const WebAppContainer = styled.div`
     height: 300px;
     width: 100%;
     .description3 {
+      width: 600px;
       position: absolute;
-      top: 700px;
-      right: 40%;
+      top: 710px;
+      right: 15%;
       padding-top: 25px;
     }
     &:hover {
       background-color: #40BC81;
       color: white;
-      transition: 0.3s;
+      transition: 0.3s ease-in;
     }
     a {
       position: absolute;
@@ -83,7 +86,6 @@ const WebAppContainer = styled.div`
   img {
     filter: grayscale(100%);
     margin-top: 10px;
-
     &:hover {
       filter: none;
       transition: 0.3s;
@@ -100,8 +102,13 @@ const WebAppPage = () => {
             <img src={drinkOn} alt="Drink-On App" />
           </a>
           <div className='description1'>
-            <h3>Hello</h3>
-            <p>and info</p>
+            <h3>Drink-On App</h3>
+            <p>a team-developed mobile app mock-up to order drinks at venues without having to wait at the bar. <br/>
+            MAIN CONTRIBUTIONS: 
+            <li>organizing market research on current bartender POS procedure</li>
+            <li>identifying additional compatible devices (POS machine, QR scanner technology)</li>
+            <li>optimizing user experience (UX)</li>
+            </p>
           </div>
         </section>
         <section className="sect2">
@@ -109,8 +116,8 @@ const WebAppPage = () => {
             <img src={jsExercise} alt="JavaScript website" />
           </a>
           <div className='description2'>
-            <h3>Hello</h3>
-            <p>and info</p>
+            <h3>JavaScript Playground</h3>
+            <p>JavaScript-based website that includes JQuery LightBox, full JS clock, interactive pictures, and screen transitions</p>
           </div>
         </section>
         <section className="sect3">
@@ -118,8 +125,8 @@ const WebAppPage = () => {
             <img src={Chess} alt="Chess Tutorial" />
           </a>
           <div className='description3'>
-            <h3>Hello</h3>
-            <p>and info</p>
+            <h3>Chess Tutorial</h3>
+            <p>single-page website designed to show window animation, parallax scrolling, and chess fundamentals</p>
           </div>
         </section>
       </div>
