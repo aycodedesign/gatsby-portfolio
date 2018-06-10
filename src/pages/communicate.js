@@ -2,9 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components';
 
-import ResumePic from '../images/young-resume.png';
-import Resume from '../images/young-resume.pdf';
-
 const CommunicateContainer = styled.div`
   background-color: #005B7D;
       z-index: 0;
@@ -48,7 +45,6 @@ const CommunicatePage = () => {
         <button type="submit">Send</button>
       </p>
     </form>
-  <Link to="../images/young-resume.pdf" download="aubrey-young-resume" target="_blank"><img src={ResumePic} alt="Resume"/></Link>
 
 </div>
   </CommunicateContainer>
