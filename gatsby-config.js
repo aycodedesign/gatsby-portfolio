@@ -8,7 +8,7 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-sharp',
     'gatsby-plugin-styled-components',
-    // 'gatsby-source-filesystem',
+    'gatsby-source-filesystem',
     'gatsby-transformer-sharp',
     {
       resolve: `gatsby-plugin-google-fonts`,

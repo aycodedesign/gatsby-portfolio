@@ -1,16 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 import styled from 'styled-components';
 
-import Header from '../components/header'
-import Footer from '../components/footer'
+import Header from '../components/header';
+import Footer from '../components/footer';
 
-import './index.scss'
+import './index.scss';
 
 const HomeColor = styled.div`
   
-`
+`;
 
 const Layout = ({ children, data }) => (
   <div>
@@ -27,7 +27,7 @@ const Layout = ({ children, data }) => (
       style={{
         margin: '0 auto',
         // maxWidth: 960,
-        padding: '5rem 1rem 0rem 1rem',
+        padding: '3.75rem 0rem 0rem 0rem',
       }}
     >
       {children()}

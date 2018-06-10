@@ -2,28 +2,38 @@ import React from 'react';
 import Link from 'gatsby-link';
 import styled from "styled-components";
 
+// ${'' /* color: #FF9586; */}
 
 const NavContainer = styled.nav`
 margin-bottom: 50px;
 
   .webApp {
     a:hover {
-      color: #0093ca;
+      color: #46b29d;
       transition: .3s color;
+    }
+    .active {
+      color: #46b29d;
     }
   }
   
   .graphic {
     a:hover {
-      color: #0093ca;
+      color: #27BCC2;
       transition: .3s color;
+    }
+    .active {
+      color: #27BCC2;
     }
   }
 
   .communicate {
     a:hover {
-      color: #0093ca;
+      color: #005B7D;
       transition: .3s color;
+    }
+    .active {
+      color: #005B7D;
     }
   }
 
@@ -50,9 +60,9 @@ const Navbar = () => {
     <NavContainer>
       <nav>
         <ul>
-          <li className='webApp'><Link to="/web-app/">web&app</Link></li>
-          <li className='graphic'><Link to="/graphic/">graphic</Link></li>
-          <li className='communicate'><Link to="/communicate/">communicate</Link></li>
+          <li className='webApp'><Link to="/web-app/" activeClassName="active">web&app</Link></li>
+          <li className='graphic'><Link to="/graphic/" activeClassName="active">graphic</Link></li>
+          <li className='communicate'><Link to="/communicate/" activeClassName="active">communicate</Link></li>
         </ul>
       </nav>
     </NavContainer>

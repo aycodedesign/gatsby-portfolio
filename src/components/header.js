@@ -7,15 +7,12 @@ import Navbar from './navbar';
 
 
 const HeaderContainer = styled.div`
-  background-color:rgb(48, 46, 46);
-  margin-bottom: 3rem;
   display: flex;
   position: fixed;
   width: 100%;
-  background-color: #302e2e;
-  text-align: center;
+  background-color: #555E63;
   box-shadow: 0px 1px 5px black;
-
+  z-index: 1;
 div {
   position: absolute;
   right: 10px;

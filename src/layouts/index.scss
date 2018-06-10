@@ -630,6 +630,9 @@ pre tt:after {
 }
 
 /* my additions */
+h1 {
+  padding-top: 2rem;
+}
 
 h1, h2 {
   font-family: 'Wire One', sans-serif;
@@ -647,5 +650,7 @@ p {
 }
 
 body {
-  background-color: #302E2E;
+  // background-color: #302E2E;
+  // background-color: #0093ca;
 }
+

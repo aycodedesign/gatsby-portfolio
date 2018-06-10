@@ -51,10 +51,10 @@ const Icons = () => {
     <div>
       <IconContainer>
         <h2>communicate with me here :</h2>
+        <a href="mailto:aubrey.ky.young@gmail.com?subject=Let's chat!"><i className="fab fa-google-plus" /></a>
         <a href="https://www.linkedin.com/in/aubreykyyoung/" target="blank"><i className="fab fa-linkedin" /></a>
         <a href="http://instagram.com/el3ctricsol" target="blank"><i className="fab fa-instagram" /></a>
         <a href="https://github.com/el3ctricsol" target="_blank"><i className="fab fa-github" /></a>
-        <a href="mailto:aubrey.ky.young@gmail.com?subject=I dig what you do!"><i className="fab fa-google-plus" /></a>
       </IconContainer>
     </div>
   )

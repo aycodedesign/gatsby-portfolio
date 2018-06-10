@@ -5,10 +5,11 @@ import Icons from './icons.js';
 
 
 const FooterContainer = styled.div`
-  background-color: #302e2e;
+  background-color: #555E63;
   text-align: center;
-  box-shadow: 0px -1px 5px black;
-`
+  box-shadow: 0px -2px 5px black;
+  z-index: 1;
+`;
 
 const Footer = () => {
   return (

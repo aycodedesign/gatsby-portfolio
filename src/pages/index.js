@@ -7,9 +7,10 @@ import Hero from '../images/hero-image.png'
 const IndexContainer = styled.div`
   ${'' /* padding: '5rem 1.0875rem 1.45rem'; */}
   padding: 0px;
+  height: 700px;
   
   img {
-    width: 100%;
+    ${'' /* width: 100%; */}
   }
  
 
@@ -21,6 +22,7 @@ const IndexPage = () => {
   <IndexContainer>
     <img src={Hero} alt="Hero movie"/>
   </IndexContainer>
+  
 )
 }
 
