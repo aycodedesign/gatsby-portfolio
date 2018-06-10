@@ -36,7 +36,7 @@ i {
     transition: .5s;
   }
 }
-.fa-google-plus { 
+.fa-envelope { 
   &:hover {
     color: #da4b42;
     transform: rotate(-10deg);
@@ -51,7 +51,7 @@ const Icons = () => {
     <div>
       <IconContainer>
         <Link to="/resume/" target="_blank"><h2>RESUME</h2></Link>
-        <a href="mailto:aubrey.ky.young@gmail.com?subject=Let's chat!"><i className="fab fa-google-plus" /></a>
+        <a href="mailto:aubrey.ky.young@gmail.com?subject=Let's chat!"><i className="fas fa-envelope"></i></a>
         <a href="https://www.linkedin.com/in/aubreykyyoung/" target="blank"><i className="fab fa-linkedin" /></a>
         <a href="http://instagram.com/el3ctricsol" target="blank"><i className="fab fa-instagram" /></a>
         <a href="https://github.com/el3ctricsol" target="_blank"><i className="fab fa-github" /></a>
