@@ -19,21 +19,21 @@ margin-bottom: 50px;
   
   .graphic {
     a:hover {
-      color: #27BCC2;
+      color: #0B6FE1;
       transition: .3s color;
     }
     .active {
-      color: #27BCC2;
+      color: #0B6FE1;
     }
   }
 
   .communicate {
     a:hover {
-      color: #005B7D;
+      color: #DB5665;
       transition: .3s color;
     }
     .active {
-      color: #005B7D;
+      color: #DB5665;
     }
   }
 

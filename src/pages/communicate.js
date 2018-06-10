@@ -2,8 +2,11 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components';
 
+  // background-color: #005B7D;
+
+
 const CommunicateContainer = styled.div`
-  background-color: #005B7D;
+  background-color: #DB5665;
       z-index: 0;
   div {
     margin: 0 auto;

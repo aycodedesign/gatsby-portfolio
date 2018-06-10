@@ -58,7 +58,7 @@ const WebAppContainer = styled.div`
     }
   }
 
-  section.sect3 {
+  .sect3 {
     margin: 0 auto;
     background-color: #C0C0C0;
     color: #C0C0C0;
