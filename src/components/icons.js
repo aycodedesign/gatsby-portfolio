@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 
 const IconContainer = styled.div`
+z-index: 2;
 h2 {
     padding-top: 10px;
     text-align: center;
