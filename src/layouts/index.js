@@ -1,16 +1,14 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import Helmet from 'react-helmet';
-import styled from 'styled-components';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import styled from 'styled-components'
 
-import Header from '../components/header';
-import Footer from '../components/footer';
+import Header from '../components/header'
+import Footer from '../components/footer'
 
-import './index.scss';
+import './index.scss'
 
-const HomeColor = styled.div`
-  
-`;
+const HomeColor = styled.div``
 
 const Layout = ({ children, data }) => (
   <div>
