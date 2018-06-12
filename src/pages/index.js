@@ -9,7 +9,6 @@ const IndexContainer = styled.div`
   padding: 0px;
   height: 700px;
   z-index: 0;
-  
 `;
 
 const IndexPage = () => {
