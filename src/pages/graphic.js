@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 
-import BadDog from '../images/baddog.jpg';
+import Iwata from '../images/happy-birthday-iwata.png';
 import Bodegas from '../images/btg-poster.png';
 import MTB from '../images/marshall-tyler-band.jpg';
 
@@ -94,10 +94,10 @@ const GraphicPage = () => {
   <GraphicContainer>
     <div>
       <section className="sect1">
-        <img className='gallery' src={BadDog} alt="Bad Dog!" />
+        <img className='gallery' src={Iwata} alt="Bad Dog!" />
         <div className="description1">
-        <h3>Bad Dog! (Photoshop)</h3>
-        <p>surreal image featuring my dog tearing apart the HOLLYWOOD sign</p>
+        <h3>Happy Birthday, Iwata-san!</h3>
+        <p>Google Doodle celebrating the 58th birthday of Satoru Iwata, former president of Nintendo, Inc</p>
         
         </div>
       </section>
