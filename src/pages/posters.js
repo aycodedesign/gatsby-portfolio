@@ -1,11 +1,10 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components';
 
   // background-color: #005B7D;
 
 
-const CommunicateContainer = styled.div`
+const PostersContainer = styled.div`
   background-color: #DB5665;
       z-index: 0;
   div {
@@ -21,13 +20,13 @@ const CommunicateContainer = styled.div`
   }
 `
 
-const CommunicatePage = () => {
+const PostersPage = () => {
   return (
-  <CommunicateContainer>
+  <PostersContainer>
     <div>
-    <h1>communicate</h1>
+    <h1>posters</h1>
     
-    <form name="communicate" method="POST" action="/" netlify>
+    <form name="posters" method="POST" action="/" netlify>
       <p>
         <label>Business Name: <input type="text" name="name" /></label>   
       </p>
@@ -50,8 +49,8 @@ const CommunicatePage = () => {
     </form>
 
 </div>
-  </CommunicateContainer>
+  </PostersContainer>
 )
 }
 
-export default CommunicatePage
+export default PostersPage

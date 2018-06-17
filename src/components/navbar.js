@@ -26,7 +26,7 @@ z-index: 1;
     }
   }
 
-  .communicate {
+  .posters {
     a:hover {
       color: #DB5665;
       transition: .3s color;
@@ -82,7 +82,7 @@ const Navbar = () => {
         <ul>
           <li className='webApp'><Link to="/web-app/" activeClassName="active">web&app</Link></li>
           <li className='graphic'><Link to="/graphic/" activeClassName="active">graphic</Link></li>
-          <li className='communicate'><Link to="/communicate/" activeClassName="active">communicate</Link></li>
+          <li className='posters'><Link to="/posters/" activeClassName="active">posters</Link></li>
         </ul>
       </nav>
     </NavContainer>
