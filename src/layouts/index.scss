@@ -619,14 +619,15 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 530px) {
   html {
     font-size: 100%;
   }
   img {
     width: 100%;
-    height: auto;
+    height: 50%;
   }
+
 }
 
 /* my additions */
@@ -645,7 +646,7 @@ h1, h2 {
 
 p {
   font-family: 'Open Sans', sans-serif;
-  font-size: 1rem;
+  font-size: .8rem;
   // color: white;
 }
 

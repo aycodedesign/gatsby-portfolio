@@ -1,8 +1,8 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
+import React from 'react';
+import Link from 'gatsby-link';
+import styled from 'styled-components';
 
-import Resume from '../images/young-resume.pdf'
+import Resume from '../images/young-resume.pdf';
 
 const IconContainer = styled.div`
   z-index: 100;

@@ -12,7 +12,7 @@ const HeaderContainer = styled.div`
   width: 100%;
   background-color: #555E63;
   box-shadow: 0px 1px 5px black;
-  z-index: 1;
+  z-index: 3;
 div {
   position: absolute;
   right: 10px;
@@ -28,6 +28,21 @@ div {
   transform: scale(1.1);
   transition: .1s ease-in;
   }
+}
+
+@media only screen and (max-width: 530px) {
+  .home {
+  margin-bottom: 40px; 
+  ${'' /* this is the navbar height */}
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  &:hover {
+  transform: scale(1.1);
+  transition: .1s ease-in;
+  }
+}
 }
 `
 

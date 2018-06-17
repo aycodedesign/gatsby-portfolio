@@ -15,7 +15,7 @@ const WebAppContainer = styled.div`
       height: 300px;
       width: 100%;
       .description1 {
-        width: 700px;
+        width: 25%;
         position: absolute;
         top: 70px;
         right: 20%;
@@ -40,7 +40,7 @@ const WebAppContainer = styled.div`
     height: 300px;
     width: 100%;
     .description2 {
-      width: 600px;
+      width: 25%;
       position: absolute;
       top: 400px;
       left: 20%;
@@ -65,7 +65,7 @@ const WebAppContainer = styled.div`
     height: 300px;
     width: 100%;
     .description3 {
-      width: 600px;
+      width: 25%;
       position: absolute;
       top: 710px;
       right: 15%;
@@ -106,7 +106,7 @@ const WebAppPage = () => {
             <p>a team-developed mobile app mock-up to order drinks at venues without having to wait at the bar. <br/>
             MAIN CONTRIBUTIONS: 
             <li>organizing market research on current bartender POS procedure</li>
-            <li>identifying additional compatible devices (POS machine, QR scanner technology)</li>
+            <li>ID'ing compatible devices (POS machine, QR scanner technology)</li>
             <li>optimizing user experience (UX)</li>
             </p>
           </div>

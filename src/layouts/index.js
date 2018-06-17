@@ -8,7 +8,6 @@ import Footer from '../components/footer'
 
 import './index.scss'
 
-const HomeColor = styled.div``
 
 const Layout = ({ children, data }) => (
   <div>

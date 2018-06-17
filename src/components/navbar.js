@@ -5,8 +5,7 @@ import styled from "styled-components";
 // ${'' /* color: #FF9586; */}
 
 const NavContainer = styled.nav`
-margin-bottom: 50px;
-
+z-index: 1;
   .webApp {
     a:hover {
       color: #46b29d;
@@ -39,11 +38,10 @@ margin-bottom: 50px;
 
  ul {
   list-style: none;
-  margin: 5px;
+  margin-top: 20px;
   display: flex;
    li {
     font-family: 'Open Sans', sans-serif;
-    padding-top: .5rem;
     padding-right: 1rem;
     padding-left: 1rem;
     a {
@@ -51,6 +49,27 @@ margin-bottom: 50px;
       text-decoration: none;
       color: #ffffff;
     }
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  position: fixed;
+  top: 30px;
+  nav {
+    padding-top: 0px;
+    position: fixed;
+    right: 50%;
+    transform: translateX(50%);
+    ul {
+      top: 30px;
+      right: 50%;
+      margin-left: 0;
+    }
+  li {
+    .webApp {
+    padding: 0px;
+    }
+  }
   }
 }
 `;
