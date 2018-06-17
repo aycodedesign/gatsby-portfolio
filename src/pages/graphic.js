@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link';
 import styled from 'styled-components';
 
 import Iwata from '../images/happy-birthday-iwata.png';
@@ -101,7 +100,7 @@ ${'' /* end media query */}
     margin: 0 auto;
     padding-bottom: 10px;
     background-color: #808080;
-    color: gray;
+    color: #808080;
     height: auto;
     width: 100%;
     .description1 {
@@ -205,7 +204,7 @@ const GraphicPage = () => {
       </section>  
       <section className="sect3">  <img src={Bodegas} alt="Bodegas Terras Gauda ad"/>
         <div className="description3">
-          <h3>Bodegas Terras Gauda (Illustrator/Photoshop)</h3>
+          <h3>Bodegas Terras Gauda</h3>
           <p>mock advertisement based on the animation style of Bodegas Terras Gauda wine ads</p>
         </div>      
       </section>
