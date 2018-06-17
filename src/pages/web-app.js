@@ -4,6 +4,7 @@ import styled from 'styled-components';
 import drinkOn from '../images/drink-on.png';
 import jsExercise from '../images/js-exercise.png';
 import Chess from '../images/chess.png';
+import Tap from '../images/tap.png';
 
 
 const WebAppContainer = styled.div`
@@ -20,25 +21,26 @@ const WebAppContainer = styled.div`
       margin: 0 auto;
       background-color: #808080;
       color: gray;
-      height: 300px;
+      height: 225px;
       width: 100%;
       .description1 {
         width: 25%;
         position: absolute;
-        top: 70px;
+        top: 120px;
         right: 20%;
         padding-top: 25px;
       }
       &:hover {
-        background-color: #46b29d;
+        background-color: #361732;
         color: white;
         transition: .3s ease-in;
       }
       a {
         position: absolute;
-        left: 25%;
-        top: 126px;  
+        right: 1150px;
+        top: 75px;  
       }
+      .tap1 {display: none;}
     }
 
   .sect2 {
@@ -50,19 +52,19 @@ const WebAppContainer = styled.div`
     .description2 {
       width: 25%;
       position: absolute;
-      top: 400px;
+      top: 375px;
       left: 20%;
       padding-top: 25px;
     }
     &:hover {
-      background-color: #49D692;
+      background-color: #ff9000;
       color: white;
       transition: 0.3s ease-in;
     }
     a {
       position: absolute;
-      right: 25%;
-      top: 440px;  
+      right: 510px;
+      top: 300px;  
     }
   }
 
@@ -75,44 +77,36 @@ const WebAppContainer = styled.div`
     .description3 {
       width: 25%;
       position: absolute;
-      top: 710px;
-      right: 15%;
+      top: 685px;
+      right: 20%;
       padding-top: 25px;
     }
     &:hover {
-      background-color: #40BC81;
+      background-color:#C24D3C;
       color: white;
       transition: 0.3s ease-in;
     }
     a {
       position: absolute;
-      left: 25%;
-      top: 733px;  
+      right: 1150px;
+      top: 615px;  
     }
   }
   }
 ${'' /* end media query */}
 
-@media only screen and (max-width: 530px) {
-    ${'' /* img {
-    filter: grayscale(100%);
-    &:hover {
-      filter: none;
-      transition: 0.3s;
-    } */}
-  }
+${'' /* @media only screen and (max-width: 530px) {
   .sect1 {
     margin: 0 auto;
-    padding-bottom: 20px;
     background-color: #808080;
     color: gray;
-    height: 525px;
+    height: 600px;
     width: 100%;
     .description1 {
       text-align: center;
       width: 80%;
       margin: 0 auto;
-      padding-top: 425px;
+      padding-top: 450px;
     }
     &:hover {
       background-color: #46b29d;
@@ -123,9 +117,16 @@ ${'' /* end media query */}
       width: 60%;
       height: auto;
       position: absolute;
+      top: 100px;
       right: 50%;
-      top: 100px;  
       transform: translateX(50%);
+    }
+    .tap1 {
+      width: 15%;
+      height: auto;
+      color: blue;
+      position: absolute;
+      top: 575px;
     }
   }
 
@@ -184,7 +185,7 @@ ${'' /* end media query */}
       transform: translateX(50%);
     }
   }
-}
+} */}
 `
 
 const WebAppPage = () => {
@@ -192,11 +193,13 @@ const WebAppPage = () => {
     <WebAppContainer>
       <div>
         <section className="sect1">
-          <div className='description1'>
+        <a className='drinkOn' href="https://marvelapp.com/2fedee4/screen/36136320" target="_blank">
+          <img src={drinkOn} alt="Drink-On App" />
+        </a>
+          <div className="description1">
+          <img className="tap1" src={Tap} alt="Tap here"/>
             <h3>Drink-On App</h3>
-              <a className='drinkOn' href="https://marvelapp.com/2fedee4/screen/36136320" target="_blank">
-                <img src={drinkOn} alt="Drink-On App" />
-              </a>
+              
             <p>a team-developed mobile app mock-up to order beverages without waiting at the bar. 
             {/* MAIN CONTRIBUTIONS: 
             <li>organizing market research on current bartender POS procedure</li>
