@@ -88,7 +88,7 @@ const WebAppContainer = styled.div`
     }
     a {
       position: absolute;
-      right: 1150px;
+      right: 1000px;
       top: 615px;  
     }
   }
