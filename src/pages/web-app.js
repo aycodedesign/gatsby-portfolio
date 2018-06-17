@@ -17,6 +17,10 @@ const WebAppContainer = styled.div`
       transition: 0.3s;
     }
   }
+  .container {
+    margin: 0 auto;
+    max-width: 100%;
+
   .sect1 {
       margin: 0 auto;
       background-color: #808080;
@@ -27,7 +31,7 @@ const WebAppContainer = styled.div`
         width: 25%;
         position: absolute;
         top: 120px;
-        right: 20%;
+        right: 25%;
         padding-top: 25px;
       }
       &:hover {
@@ -37,7 +41,7 @@ const WebAppContainer = styled.div`
       }
       a {
         position: absolute;
-        right: 1150px;
+        right: 60%;
         top: 75px;  
       }
       .tap1 {display: none;}
@@ -63,7 +67,7 @@ const WebAppContainer = styled.div`
     }
     a {
       position: absolute;
-      right: 510px;
+      left: 50%;
       top: 300px;  
     }
   }
@@ -78,7 +82,7 @@ const WebAppContainer = styled.div`
       width: 25%;
       position: absolute;
       top: 685px;
-      right: 20%;
+      right: 25%;
       padding-top: 25px;
     }
     &:hover {
@@ -88,10 +92,11 @@ const WebAppContainer = styled.div`
     }
     a {
       position: absolute;
-      right: 1000px;
+      right: 55%;
       top: 615px;  
     }
   }
+    }
   }
 ${'' /* end media query */}
 
@@ -191,7 +196,7 @@ ${'' /* @media only screen and (max-width: 530px) {
 const WebAppPage = () => {
   return (
     <WebAppContainer>
-      <div>
+      <div className="container">
         <section className="sect1">
         <a className='drinkOn' href="https://marvelapp.com/2fedee4/screen/36136320" target="_blank">
           <img src={drinkOn} alt="Drink-On App" />
