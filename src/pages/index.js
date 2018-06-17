@@ -66,16 +66,3 @@ class App extends Component {
   }
 }
 export default App
-
-// const IndexPage = () => {
-//   return (
-//     <IndexContainer>
-//       <video width="100%" height="auto" autoplay>
-//         <source src={VCR1} type="video/mp4" />
-//         <source src={VCR2} type="video/webm" />
-//       </video>
-//     </IndexContainer>
-//   )
-// }
-
-// export default IndexPage
