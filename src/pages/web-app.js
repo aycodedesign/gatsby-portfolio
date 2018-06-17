@@ -18,7 +18,7 @@ const WebAppContainer = styled.div`
     }
   }
   .container {
-    margin: 0 auto;
+    margin: auto;
     max-width: 100%;
 
   .sect1 {
@@ -31,7 +31,7 @@ const WebAppContainer = styled.div`
         width: 25%;
         position: absolute;
         top: 120px;
-        right: 25%;
+        right: 20%;
         padding-top: 25px;
       }
       &:hover {
@@ -67,7 +67,7 @@ const WebAppContainer = styled.div`
     }
     a {
       position: absolute;
-      left: 50%;
+      left: 55%;
       top: 300px;  
     }
   }
