@@ -110,7 +110,7 @@ ${'' /* end media query */}
       padding-top: 330px;
     }
     &:hover {
-      background-color: #46b29d;
+      background-color: #361732;
       color: white;
       transition: .3s ease-in;
     }
@@ -145,7 +145,7 @@ ${'' /* end media query */}
       padding-top: 255px;
     }
     &:hover {
-      background-color: #49D692;
+      background-color: #ff9000;
       color: white;
       transition: 0.3s ease-in;
     }
@@ -173,7 +173,7 @@ ${'' /* end media query */}
     padding-top: 215px;
     }
     &:hover {
-      background-color: #40BC81;
+      background-color: #C24D3C;
       color: white;
       transition: 0.3s ease-in;
     }
