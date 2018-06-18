@@ -17,9 +17,6 @@ const WebAppContainer = styled.div`
       transition: 0.3s;
     }
   }
-  .container {
-    margin: auto;
-    max-width: 100%;
 
   .sect1 {
       margin: 0 auto;
@@ -57,7 +54,7 @@ const WebAppContainer = styled.div`
       width: 25%;
       position: absolute;
       top: 375px;
-      left: 20%;
+      left: 25%;
       padding-top: 25px;
     }
     &:hover {
@@ -82,7 +79,7 @@ const WebAppContainer = styled.div`
       width: 25%;
       position: absolute;
       top: 685px;
-      right: 25%;
+      right: 20%;
       padding-top: 25px;
     }
     &:hover {
@@ -96,22 +93,21 @@ const WebAppContainer = styled.div`
       top: 615px;  
     }
   }
-    }
-  }
+}
 ${'' /* end media query */}
 
-${'' /* @media only screen and (max-width: 530px) {
+@media only screen and (max-width: 530px) {
   .sect1 {
     margin: 0 auto;
     background-color: #808080;
     color: gray;
-    height: 600px;
+    height: 450px;
     width: 100%;
     .description1 {
       text-align: center;
       width: 80%;
       margin: 0 auto;
-      padding-top: 450px;
+      padding-top: 330px;
     }
     &:hover {
       background-color: #46b29d;
@@ -131,7 +127,7 @@ ${'' /* @media only screen and (max-width: 530px) {
       height: auto;
       color: blue;
       position: absolute;
-      top: 575px;
+      top: 320px;
     }
   }
 
@@ -146,7 +142,7 @@ ${'' /* @media only screen and (max-width: 530px) {
       text-align: center;
       width: 80%;
       margin: 0 auto;
-      padding-top: 225px;
+      padding-top: 255px;
     }
     &:hover {
       background-color: #49D692;
@@ -158,7 +154,7 @@ ${'' /* @media only screen and (max-width: 530px) {
       height: auto;
       position: absolute;
       right: 50%;
-      top: 625px;  
+      top: 540px;  
       transform: translateX(50%);
     }
   }
@@ -174,7 +170,7 @@ ${'' /* @media only screen and (max-width: 530px) {
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    padding-top: 225px;
+    padding-top: 215px;
     }
     &:hover {
       background-color: #40BC81;
@@ -186,11 +182,11 @@ ${'' /* @media only screen and (max-width: 530px) {
       height: auto;
       position: absolute;
       right: 50%;
-      top: 1000px;  
+      top: 930px;  
       transform: translateX(50%);
     }
   }
-} */}
+}
 `
 
 const WebAppPage = () => {

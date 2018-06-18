@@ -34,32 +34,32 @@ const GraphicContainer = styled.div`
       }
       img {
         position: absolute;
-        right: 1000px;
+        right: 53%;
         top: 105px;  
       }
     }
     
     .sect2 {
     margin: 0 auto;
-    background-color: #404040;
-    color: #404040;
+    background-color: #3A3A3A;
+    color: #3A3A3A;
     height: 300px;
     width: 100%;
     .description2 {
       width: 25%;
       position: absolute;
-      top: 400px;
-      left: 20%;
+      top: 375px;
+      left: 25%;
       padding-top: 25px;
     }
     &:hover {
-      background-color: #005B7D;
+      background-color: #393A3C;
       color: white;
       transition: 0.3s ease-in;
     }
     img {
       position: absolute;
-      right: 350px;
+      left: 55%;
       top: 340px;  
     }
   }
@@ -84,7 +84,7 @@ const GraphicContainer = styled.div`
     }
     img {
       position: absolute;
-      right: 1000px;
+      right: 55%;
       top: 640px; 
     }
   }  
