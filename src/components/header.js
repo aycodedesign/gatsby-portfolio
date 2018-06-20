@@ -30,12 +30,14 @@ div {
 }
 
 @media only screen and (max-width: 530px) {
+  display: inline;
   .home {
   margin-bottom: 40px; 
   ${'' /* this is the navbar height */}
   a {
     color: #ffffff;
     text-decoration: none;
+    padding-left: 0px;
   }
   &:hover {
   transform: scale(1.1);
