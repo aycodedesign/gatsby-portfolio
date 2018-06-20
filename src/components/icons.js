@@ -19,8 +19,8 @@ const IconContainer = styled.div`
   }
   i {
     color: white;
-    font-size: 2rem;
-    padding: 25px;
+    font-size: 1.75rem;
+    padding: 20px;
   }
   .fa-linkedin {
     &:hover {
@@ -50,6 +50,26 @@ const IconContainer = styled.div`
       transition: 0.5s;
     }
   }
+@media only screen and (max-width: 530px) {
+  padding-bottom: 25px;
+  i{
+    color: white;
+    font-size: 1.75rem;
+    padding: 7px;
+  }
+    z-index: 100;
+
+  a {
+    text-decoration: none;
+    h2 {
+      padding-top: 10px;
+      text-align: center;
+      color: white;
+      margin: 0px;
+      font-size: 2rem;
+    }
+  }
+}
 `
 
 const Icons = () => {
@@ -59,13 +79,13 @@ const Icons = () => {
         <a href={Resume} target="_blank">
           <h2>RESUME</h2>
         </a>
-        <a href="mailto:aubrey.ky.young@gmail.com?subject=Let's chat!">
+        <a href="mailto:onthe13thday@gmail.com?subject=Let's chat!">
           <i className="fas fa-envelope" />
         </a>
         <a href="https://www.linkedin.com/in/aubreykyyoung/" target="blank">
           <i className="fab fa-linkedin" />
         </a>
-        <a href="http://instagram.com/el3ctricsol" target="blank">
+        <a href="http://instagram.com/ayDigitalDesign" target="blank">
           <i className="fab fa-instagram" />
         </a>
         <a href="https://github.com/el3ctricsol" target="_blank">

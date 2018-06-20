@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import Icons from './icons.js'
 
 const FooterContainer = styled.div`
-  background-color: #555e63;
+  background-color: #555f63;
   text-align: center;
   box-shadow: 0px -2px 5px black;
   z-index: 90;

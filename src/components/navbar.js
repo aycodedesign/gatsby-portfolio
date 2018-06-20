@@ -82,7 +82,6 @@ const Navbar = () => {
         <ul>
           <li className='webApp'><Link to="/web-app/" activeClassName="active">web&app</Link></li>
           <li className='graphic'><Link to="/graphic/" activeClassName="active">graphic</Link></li>
-          <li className='posters'><Link to="/posters/" activeClassName="active">posters</Link></li>
         </ul>
       </nav>
     </NavContainer>

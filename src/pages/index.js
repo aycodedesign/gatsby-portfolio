@@ -48,7 +48,7 @@ class App extends Component {
         <div
           style={{
             position: 'absolute',
-            top: 50,
+            top: 40,
             left: 0,
             width: '100%',
             height: '100%',
