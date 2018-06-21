@@ -52,13 +52,12 @@ const IconContainer = styled.div`
   }
 @media only screen and (max-width: 530px) {
   padding-bottom: 25px;
+  z-index: 100;
   i{
     color: white;
     font-size: 1.75rem;
     padding: 7px;
   }
-    z-index: 100;
-
   a {
     text-decoration: none;
     h2 {

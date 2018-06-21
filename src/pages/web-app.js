@@ -58,7 +58,7 @@ const WebAppContainer = styled.div`
       padding-top: 25px;
     }
     &:hover {
-      background-color: #ff9000;
+      background-color: #C24D3C;
       color: white;
       transition: 0.3s ease-in;
     }
@@ -83,7 +83,7 @@ const WebAppContainer = styled.div`
       padding-top: 25px;
     }
     &:hover {
-      background-color:#C24D3C;
+      background-color: #ff9000;
       color: white;
       transition: 0.3s ease-in;
     }
@@ -145,7 +145,7 @@ ${'' /* end media query */}
       padding-top: 255px;
     }
     &:hover {
-      background-color: #ff9000;
+      background-color: #C24D3C;
       color: white;
       transition: 0.3s ease-in;
     }
@@ -173,7 +173,7 @@ ${'' /* end media query */}
     padding-top: 215px;
     }
     &:hover {
-      background-color: #C24D3C;
+      background-color: #ff9000;
       color: white;
       transition: 0.3s ease-in;
     }
@@ -211,23 +211,24 @@ const WebAppPage = () => {
 
         </section>
         <section className="sect2">
-          <a href="http://aubreyyoung.aisites.com" target="_blank">
-            <img src={jsExercise} alt="JavaScript website" />
-          </a>
-          <div className='description2'>
-            <h3>JavaScript Playground</h3>
-            <p>JavaScript-based website that includes JQuery LightBox, full JS clock, interactive pictures, and screen transitions</p>
-          </div>
-        </section>
-        <section className="sect3">
           <a href="http://aubreyyoung.aisites.com/" target="_blank">
             <img src={Chess} alt="Chess Tutorial" />
           </a>
-          <div className='description3'>
+          <div className='description2'>
             <h3>Chess Tutorial</h3>
             <p>single-page website showing off window animation, parallax scrolling, and chess fundamentals</p>
           </div>
         </section>
+        <section className="sect3">
+          <a href="http://aydigitaldesign.com/jquery-website/" target="_blank">
+            <img src={jsExercise} alt="JavaScript website" />
+          </a>
+          <div className='description3'>
+            <h3>JavaScript Playground</h3>
+            <p>JavaScript-based website that includes JQuery LightBox, full JS clock, interactive pictures, and screen transitions (first functioning website)</p>
+          </div>
+        </section>
+        
       </div>
       
      </WebAppContainer> 
