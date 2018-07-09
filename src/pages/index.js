@@ -3,8 +3,6 @@ import styled from 'styled-components'
 import Icons from '../components/icons.js'
 
 import VideoBgComponent from 'react-videobg'
-import VCR1 from '../images/vcr-intro.mp4'
-import VCR2 from '../images/vcr-intro.webm'
 import Glitch from '../images/logo-glitch.mp4'
 
 const IconsContainer = styled.div`
