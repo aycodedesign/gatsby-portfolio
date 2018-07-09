@@ -15,7 +15,6 @@ const IconsContainer = styled.div`
 class App extends Component {
   render() {
     const params = {
-      // sources: [VCR1, VCR2],
       sources: [Glitch],
       videosize: {
         w: 1920,
