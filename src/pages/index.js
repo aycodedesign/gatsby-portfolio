@@ -5,6 +5,7 @@ import Icons from '../components/icons.js'
 import VideoBgComponent from 'react-videobg'
 import VCR1 from '../images/vcr-intro.mp4'
 import VCR2 from '../images/vcr-intro.webm'
+import Glitch from '../images/logo-glitch.mp4'
 
 const IconsContainer = styled.div`
   position: absolute;
@@ -16,7 +17,8 @@ const IconsContainer = styled.div`
 class App extends Component {
   render() {
     const params = {
-      sources: [VCR1, VCR2],
+      // sources: [VCR1, VCR2],
+      sources: [Glitch],
       videosize: {
         w: 1920,
         h: 1080,
